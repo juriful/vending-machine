@@ -1,0 +1,5 @@
+{
+  "server": {
+    "nodePort": 3000
+  }
+}
