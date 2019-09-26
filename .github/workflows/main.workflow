@@ -4,5 +4,9 @@ workflow "テスト" {
 }
 
 action "nodejs.yml" {
-  uses = "./nodejs.yml"
+  uses = "owner/repo/nodejs.yml"
+}
+
+action "new-action" {
+  uses = "owner/repo/path@ref"
 }
