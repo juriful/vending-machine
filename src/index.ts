@@ -8,5 +8,5 @@ app.listen(config.server.nodePort, () => {
 })
 
 app.get('/', (req, res) => {
-  res.send('hello world')
+  res.send('hello dragon')
 })
