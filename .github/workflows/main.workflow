@@ -3,7 +3,7 @@ workflow "テスト" {
   resolves = ["new-action"]
 }
 
-action "nodejs.yml" {
+action "hoge-action" {
   uses = "owner/repo/nodejs.yml"
 }
 
